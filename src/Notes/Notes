@@ -1,0 +1,15 @@
+To do list, first notes from mentor:
+
+1. Rebuild Order Class as an Interface
+2. Restructure interaction with Stock and Order to make Order call Stock not Vice Versa
+3. Rename limitOrder to value instead of limitOrder - The best documentation is Self Documentation
+4. Rebuild marketOrder to take in current value of stock. (Auto Update)
+
+
+To do tomorrow:
+1. Figure out why it can't find the main class when I run.
+2. Compose one stock and order with orders dependent on the stock class.
+
+Questions:
+
+1.
