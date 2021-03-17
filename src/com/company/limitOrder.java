@@ -5,8 +5,8 @@ public class limitOrder implements Order {
     //UPDATE 2: Changed variable names to 'value' and slightly edited toString
     // Added Stock instantiation for composition
 
-    double value;
-    final Stock ticker;
+    private double value;
+    private final Stock ticker;
 
     public limitOrder(Stock ticker, double value) {
 
@@ -17,7 +17,7 @@ public class limitOrder implements Order {
 
     public String toString(){
 
-        return String.format("The Limit Order value is set at %s.", value);
+        return String.format("Setting limit order on %s for $%s.", ticker, value);
 
     }
 

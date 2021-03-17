@@ -13,7 +13,7 @@ public class Stock {
         this.companyName = companyName;
     }
 
-    public String toString() {return String.format ("This is the stock for the company %s. The ticker is %s." , companyName, ticker);
+    public String toString() {return String.format ("%s (%s)" , ticker, companyName);
 
     }
 

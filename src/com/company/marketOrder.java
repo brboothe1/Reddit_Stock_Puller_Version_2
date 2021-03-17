@@ -5,7 +5,7 @@ package com.company;
 
 public class marketOrder implements Order {
 
-    Stock ticker;
+    private final Stock ticker;
 
     public marketOrder(Stock ticker) {
 
@@ -14,8 +14,11 @@ public class marketOrder implements Order {
 
         // double value = (web scraper logic for finding the current market order price)
 
-        // System.out.println("The current Market Order value is " + value);
 
+    }
+
+    public String toString(){
+        return String.format("Executing market order on %s." , ticker);
     }
 
 
